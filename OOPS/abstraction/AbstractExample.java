@@ -11,10 +11,10 @@ public class AbstractExample {
 		 * 
 		 * Can be implemented by Abstract class and Interface
 		 * */
-		SubClassOne objClass1 = new SubClassOne();
+		AbstractClass objClass1 = new SubClassOne();
 		objClass1.anIdea();
 		objClass1.sampleIdea();
-		SubClassTwo objClass2 = new SubClassTwo();
+		AbstractClass objClass2 = new SubClassTwo();
 		objClass2.anIdea();
 		objClass2.sampleIdea();
 
