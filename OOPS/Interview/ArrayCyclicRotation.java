@@ -1,6 +1,6 @@
 package Interview;
 
-public class ArrayRotation {
+public class ArrayCyclicRotation {
 	/*
 	 * Task Statement An array A consisting of N integers is given. Rotation of the
 	 * array means that each element is shifted right by one index, and the last
@@ -38,11 +38,15 @@ public class ArrayRotation {
 	 * integer within the range [−1,000..1,000]. In your solution, focus on
 	 * correctness. The performance of your solution will not be the focus of the
 	 * assessment.
+	 * 
+	 * https://app.codility.com/demo/results/trainingRRP3RA-EJR/
 	 */
 	public static void main(String[] args) {
 		/*
-		 * ([3, 8, 9, 7, 6], 3) ([3, 8, 9, 7, 6], 0) ([3, 8, 9, 7, 6], 200) ([3, 8, 9,
-		 * 7, 6], 2147483647)
+		 * ([3, 8, 9, 7, 6], 3)
+		 * ([3, 8, 9, 7, 6], 0) 
+		 * ([3, 8, 9, 7, 6], 200) 
+		 * ([3, 8, 9,7, 6], 2147483647)
 		 */
 		int[] A = { 3, 8, 9, 7, 6 };
 		int K = 3;
