@@ -50,7 +50,7 @@ public class ArrayCyclicRotation {
 		 */
 		int[] A = { 3, 8, 9, 7, 6 };
 		int K = 3;
-		solution(A, K);
+		solution(A, K);	
 	}
 
 	public static int[] solution(int[] A, int K) {
