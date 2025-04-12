@@ -3,20 +3,22 @@ package POC;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.time.LocalDateTime;
 import java.util.ArrayList;
 
 public class ChangeFileProp {
 	static ArrayList<File> searchDir = new ArrayList<File>();
 
 	public static void main(String[] args) {
-
-		String directoryPath = "D:\\Pictures";
+		System.out.println(LocalDateTime.now());
+		String directoryPath = "D:\\ARUN_DATA\\Pictures";
 		String batchFilePath = directoryPath;
 		File directory = new File(directoryPath);
 		listSubdirectories(directory);
 		searchDir.forEach(file -> {
 			findImageFiles(file);
 		});
+		System.out.println(LocalDateTime.now());
 
 	}
 
@@ -25,8 +27,8 @@ public class ChangeFileProp {
 		if (files != null) {
 			for (File file : files) {
 				if (isImageFile(file)) {
-					System.out.println("Image file found: " + file.getAbsolutePath());
-					String directoryPath = "D:\\Pictures\\cpfile.bat";
+//					System.out.println("Image file found: " + file.getAbsolutePath());
+					String directoryPath = "D:\\ARUN_DATA\\Pictures\\cpfile.bat";
 					appendToFile(directoryPath, "copy " + file.getAbsolutePath() + " D:\\Pictures\\BKP\\");
 				}
 			}
@@ -38,7 +40,7 @@ public class ChangeFileProp {
 		if (files != null) {
 			for (File file : files) {
 				if (file.isDirectory()) {
-					System.out.println("Subdirectory found: " + file.getAbsolutePath());
+//					System.out.println("Subdirectory found: " + file.getAbsolutePath());
 					searchDir.add(new File(file.getAbsolutePath()));
 					listSubdirectories(file);
 				}
