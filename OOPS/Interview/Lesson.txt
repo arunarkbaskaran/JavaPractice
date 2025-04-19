@@ -1,0 +1,16 @@
+1. Lesson 1
+	Iterations
+		Q1: BinaryGap S1: BinaryGap.java
+2. Lesson 2
+	Arrays
+		Q2. CyclicRotation S2. ArrayCyclicRotation.java
+		Q3. OddOccurrencesInArray S3. -
+3. Lesson 3
+	Time Complexity
+		Q4. FrogJmp S4. -
+		Q5. PermMissingElem S5. -
+		Q6. TapeEquilibrium S6. -
+Lesson 4
+	Counting Elements
+		
+		
