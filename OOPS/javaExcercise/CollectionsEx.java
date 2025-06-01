@@ -24,6 +24,8 @@ public class CollectionsEx {
 		testLinkedList.add("LL4");
 		testLinkedList.add("LL5");
 		testLinkedList.add("LL6");
+		
+		
 		Iterator it=testLinkedList.iterator();
 		while(it.hasNext())
 		{

@@ -1,6 +1,6 @@
 package abstraction;
 
-abstract class AbstractClass {
+abstract  class AbstractClass {
 	/*
 	 * Use abstract keyword before the class.
 	 * Meant to be extended by other classes.
@@ -13,8 +13,7 @@ abstract class AbstractClass {
 	 * Abstract class can have final, non-final, static and non-static variables.
 	 * */
 	abstract void anIdea();
-	
-	void sampleIdea()
+	static void sampleIdea()
 	{
 		System.out.println("Sample Idea Implementation from Abstract Class");
 	}

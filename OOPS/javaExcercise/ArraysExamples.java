@@ -5,6 +5,7 @@ public class ArraysExamples {
 		int[] a = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
 		String[] s = { "abc", "def", "ghi" };
 		char[] c = { 'a', 'b', 'c' };
+		int len=a.length;
 		System.out.println("Integer Array");
 		for (int i : a) {
 			System.out.println(i);
